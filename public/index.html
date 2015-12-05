@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>NYC Population</title>
+	
+	<meta name="viewport" content="width=device-width">
+	
+	<link rel="stylesheet" href="css/leaflet.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="map"></div>
+
+
+<div class='sidebar pad2'>
+<p>
+  <label for="amount">Year:</label>
+  <input type="text" id="amount" value=1950 readonly style="border:0; color:#fff;background-color: black; font-weight:bold;width:30%"> 
+</p>
+
+<div class="row">	
+
+<button id="play"  class="glyphicon glyphicon-play .btn btn-success" onclick='playButtonPress()'></button>
+<div id="slider"  style="margin-left: 60px; margin-right: 25px;" ></div>
+</div>
+</br>
+<h4>
+  <label for="district">Precinct:</label>
+  <input type="text" id="place"  readonly style="border:0; color:#fff;background-color: black; font-weight:bold;width:30%"> 
+</h4>
+<div id="chartdiv">Click on a precinct for more info </div> 
+ 
+</div>
+	<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+	<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+	<script src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/leaflet.js"></script>
+	<script src="js/main.js"></script>
+	  <!-- Including jQuery and jQuery UI from Google's CDN -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+</body>
+</html>
