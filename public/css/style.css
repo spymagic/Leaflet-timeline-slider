@@ -30,13 +30,16 @@ img{
   padding-bottom: 2px;
   width: 200px;
 }
+
 #play {
     float: left;
     width: 30px;
     height: 24px;
-    margin: -6px;
+    margin: -6px;  
     margin-left: 10px;
 }
+
+
 label {
 color: #fff;
 

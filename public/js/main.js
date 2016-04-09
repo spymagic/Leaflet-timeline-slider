@@ -148,7 +148,7 @@ $(document).ready(function() {
 	        primary: "glyphicon glyphicon-search"
 	      },
 	      text: false
-	    }).click(function () {
+	    }).click(function(){
 	        if (playInterval != undefined) {
 	            clearInterval(playInterval);
 	            playInterval = undefined;
